@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid28753",
+  "B": "/home/dev/feedback/uid28753",
+  "sha": "312e892439153d1a2178be51c0b74112e81359ca",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "openfga",
+    "repo": "openfga",
+    "sha": "312e892439153d1a2178be51c0b74112e81359ca"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "openfga",
+    "cloneUrl": "https://github.com/Rrr119/openfga.git"
+  },
+  "at": "2026-11-19T22:03:11.189Z"
+}

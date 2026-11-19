@@ -6,6 +6,7 @@ import (
 
 	"github.com/openfga/openfga/cmd"
 	"github.com/openfga/openfga/cmd/migrate"
+	"github.com/openfga/openfga/cmd/rbacmigrate"
 	"github.com/openfga/openfga/cmd/run"
 	"github.com/openfga/openfga/cmd/validatemodels"
 )
@@ -18,6 +19,9 @@ func main() {
 
 	migrateCmd := migrate.NewMigrateCommand()
 	rootCmd.AddCommand(migrateCmd)
+
+	rbacMigrateCmd := rbacmigrate.NewRBACMigrateCommand()
+	rootCmd.AddCommand(rbacMigrateCmd)
 
 	validateModelsCmd := validatemodels.NewValidateCommand()
 	rootCmd.AddCommand(validateModelsCmd)
